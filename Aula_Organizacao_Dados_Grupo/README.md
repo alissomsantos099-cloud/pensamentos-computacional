@@ -32,4 +32,4 @@ A base conceitual para a montagem dessas representações visuais foi extraída 
 
 ---
 **Nome:** ALisson D S Ferreira
-**Repositório Pai:** [Atividade_Pensamento_Computacional](../Atividade_Pensamento_Computacional)
+
