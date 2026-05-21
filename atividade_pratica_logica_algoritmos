@@ -1,1 +1,41 @@
+# Atividade Prática: Controle de Acesso
+## Disciplina: Pensamento Computacional
+**Estudante:** Alisson D S Ferreira
+**Data:** 29/04/2026
 
+### 1. Descrição do Problema
+O objetivo deste algoritmo é organizar o processo de entrada de alunos em uma sala de aula, validando se o nome do aluno consta em uma lista oficial e repetindo o processo para todos os presentes na fila.
+
+### 2. Algoritmo (Pseudocódigo)
+
+```text
+Algoritmo ControleDeAcessoSala
+Var
+    listaOficial: Conjunto de Nomes
+    filaDeAlunos: Fila de Nomes
+    alunoAtual: Texto
+
+Início
+    // Definição dos dados iniciais
+    listaOficial <- ["Marcos", "Eduardo", "Lucas", "Alisson", "Daniel"]
+    filaDeAlunos <- [Nomes dos alunos aguardando na porta]
+
+    // Estrutura de Repetição: Enquanto houver alunos na fila
+    Enquanto (filaDeAlunos não estiver vazia) Faça
+        
+        // Coleta o próximo aluno da fila
+        alunoAtual <- Próximo aluno da fila
+        
+        // Estrutura de Controle (Tomada de Decisão)
+        Se (alunoAtual consta na listaOficial) Então
+            // Condicional Positiva
+            Escrever("Entrada permitida: Bem-vindo, ", alunoAtual)
+        Senão
+            // Condicional Negativa
+            Escrever("ERRO: Entrada negada. O nome ", alunoAtual, " não consta na lista.")
+        FimSe
+        
+    FimEnquanto
+
+    Escrever("Processo de verificação concluído.")
+Fim
